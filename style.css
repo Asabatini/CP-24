@@ -8,8 +8,6 @@
  body {
   font-family: 'Times New Roman', Times, serif;
   background: linear-gradient(to right, rgb(204, 203, 248), rgb(4, 10, 39));
-  max-width: 100vw;
-  max-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,8 +15,8 @@
 }
 
 .title-container {
-  width: 600px;
-  height: 800px;
+  width: 80%;
+  height: 80%;
   position: relative;
   background-color: rgb(2, 20, 53);
   border-radius: 50px;
@@ -27,14 +25,6 @@
   align-items: center;
   justify-content: center;
   border: 2px solid orange;
-}
-
-.title-container::before {
-  background: rgb(247, 185, 51);
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  display: flex;
 }
 
 .devotion-description {
